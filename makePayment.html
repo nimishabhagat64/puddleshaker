@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PuddleShaker</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/appPlan.css">
+
+</head>
+
+<body>
+    <!--This will be PuddleShaker Logo and menu-->
+    <header>
+        <img src="./img/PuddleShakerLogo.png" alt="Puddle Shaker Logo">
+        <nav>
+            <a href="./myProjects.html">Discovery</a>
+            <a href="./myProjects.html">My Projects</a>
+            <a href="./Dashboard.html">Find a Mentor</a>
+            <a href="./Dashboard.html">My Account</a>
+        </nav>
+    </header>
+
+    <main class="grid-x">
+
+        <section class="grid-x grid-container">
+            <div class="cell large-6 medium-6 small-12 card1">
+                <p>You would not be charged until you click on submit and you can cancel the membership within 7 days.
+                </p>
+
+                <form action="/action_page.php">
+                    <h1>Choose a payment method</h1>
+                    <input type="radio" id="creditcard" name="creditcard" value="Credit Card">
+                    <label for="credircard">Credit Card</label><br>
+
+                    <!-- Inserting all the content here -->
+                    <form action="/action_page.php" method="get">
+                        Name on the Card: <input type="text" name="Name"><br>
+                        Expiration Date: <input type="text" name="Expiration Date"><br>
+                        CVV: <input type="text" name="CVV"><br>
+
+                        <input type="radio" id="debitCard" name="debitCard" value="debitCard">
+                        <label for="creditCard">Debit Card</label><br>
+
+                        <input type="radio" id="applyPay" name="applyPay" value="applyPay">
+                        <label for="applePay">Apple Pay</label><br>
+
+                        <input type="radio" id="wallet" name="wallet" value="wallet">
+                        <label for="wallet">Wallet</label><br>
+                        <input type="submit" value="Submit">
+                    </form>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

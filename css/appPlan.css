@@ -1,0 +1,146 @@
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+/* Navigation Bar details to make it hovering and changing colors*/
+/* unvisited link */
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: orangered;
+}
+
+/* selected link */
+a:active {
+  color: orangered;
+}
+
+nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px 10px 10px 10px;
+  overflow: hidden;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  display: block;
+  color: orangered;
+  text-align: center;
+  padding: 15px 10px 10px 10px;
+  text-decoration: none;
+}
+
+nav a:hover:not(.active) {
+  background-color: rgba(255, 164, 131, 0.285);
+}
+
+.active {
+  background-color: #000000;
+  color: black;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+
+header img {
+  width: 300px;
+  height: auto;
+  display: center;
+  padding-left: 60px;
+}
+
+/* font family */
+nav {
+  font-family: 'Inter', sans-serif;
+}
+
+.card1 {
+  border: 1px solid #000;
+  background-color: #FEFFFE;
+  transition: background-color 0.3s ease;
+  padding: 16px;
+  border-radius: 16px;
+  border-color: #EBEBEB;
+}
+
+.card1:hover {
+  background-color: #FFFAF5;
+}
+
+/* Styling by simple selector using  for h1 across all screens created by khushi*/
+h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  color: #333;
+  padding-top: 36px;
+}
+
+/* Styling by using simple selector for h2 across all screens created by khushi*/
+h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  color: #333;
+}
+
+/* Styling by using simple selector for p across all screens created by khushi*/
+p {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #333;
+  padding-bottom: 24px;
+}
+
+.payment {
+  padding: 16px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.cell {
+  padding: 20px;
+}
+
+input:focus {
+  outline: 2px solid blue;
+}
+
+/* Add CSS styles for click to get focus */
+input[type="text"]:focus {
+  background-color: rgb(255, 218, 123);
+  color: black;
+}
+
+input {
+  background-color: #F04438;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  border-radius: 4px;
+  background-color: rgba(255, 164, 131, 0.8);
+}
+
+button a:hover {
+  color: #F04438;
+}

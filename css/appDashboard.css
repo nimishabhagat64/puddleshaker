@@ -1,0 +1,144 @@
+/* Styling by simple selector using  for logo and navigational elements across all screens created by Esha*/
+header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+/* Navigation Bar details to make it hovering and changing colors by Esha*/
+/* unvisited link */
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: orangered;
+}
+
+/* selected link */
+a:active {
+  color: orangered;
+}
+
+nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px 10px 10px 10px;
+  overflow: hidden;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  font-family: 'Inter', sans-serif;
+}
+
+nav a {
+  display: block;
+  color: orangered;
+  text-align: center;
+  padding: 15px 10px 10px 10px;
+  text-decoration: none;
+}
+
+nav a:hover:not(.active) {
+  background-color: rgba(255, 164, 131, 0.285);
+}
+
+.active {
+  background-color: #000000;
+  color: black;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+
+header img {
+  width: 300px;
+  height: auto;
+  display: center;
+  padding-left: 60px;
+}
+
+
+
+/* My code starts from here */
+
+/* Styling by simple selector using  for h1 across all screens created by khushi*/
+h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  color: #333;
+  padding-top: 36px;
+}
+
+/* Styling by using simple selector for h2 across all screens created by khushi*/
+h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  color: #333;
+}
+
+/* Styling by using simple selector for p across all screens created by khushi*/
+p {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #333;
+  padding-bottom: 24px;
+}
+
+/* Styling by using class selector for interactive card1 across all screens created by khushi*/
+.card1 {
+  border: 1px solid #000;
+  background-color: #FEFFFE;
+  transition: background-color 0.3s ease;
+  padding: 16px;
+  border-radius: 16px;
+  border-color: #FEE4E2;
+}
+
+/* Styling by pseudo element for interactive card1 across all screens created by khushi*/
+.card1:hover {
+  border: 2px solid #000;
+  background-color: #FEE4E2;
+  transition: background-color 0.3s ease;
+  padding: 16px;
+  border-radius: 16px;
+  border-color: #F97066;
+}
+
+/* Styling by using class selector for static card2 across all screens created by khushi*/
+.card2 {
+  padding: 16px solid #000000;
+  background-color: #F2F4F7;
+  padding: 16px;
+  border-radius: 16px;
+  border-color: FEE4E2;
+}
+
+/* Styling by using class selector for .cell across all screens created by khushi*/
+.cell {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+/* Styling by using simple selector for span across all screens created by khushi*/
+span {
+  padding-left: 16px;
+  padding-right: 16px;
+  font-family: "Inter", sans-serif;
+  font-size: 44px;
+  font-weight: 400;
+  color: #333;
+  padding-bottom: 24px;
+}
