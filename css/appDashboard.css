@@ -5,6 +5,7 @@ header {
   padding: 10px;
 }
 
+
 /* Navigation Bar details to make it hovering and changing colors by Esha*/
 /* unvisited link */
 a:link {
@@ -19,6 +20,10 @@ a:visited {
 /* mouse over link */
 a:hover {
   color: orangered;
+}
+
+.navigation {
+
 }
 
 /* selected link */
@@ -109,7 +114,7 @@ p {
 
 /* Styling by pseudo element for interactive card1 across all screens created by khushi*/
 .card1:hover {
-  border: 2px solid #000;
+  border: 1px solid #000;
   background-color: #FEE4E2;
   transition: background-color 0.3s ease;
   padding: 16px;
@@ -124,6 +129,10 @@ p {
   padding: 16px;
   border-radius: 16px;
   border-color: FEE4E2;
+}
+
+.card2 {
+  display: none;
 }
 
 /* Styling by using class selector for .cell across all screens created by khushi*/
@@ -141,4 +150,13 @@ span {
   font-weight: 400;
   color: #333;
   padding-bottom: 24px;
+}
+
+footer {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  background-color: #000;
+  color: #FEE4E2;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
