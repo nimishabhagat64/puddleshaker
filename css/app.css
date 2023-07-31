@@ -1,132 +1,302 @@
+/* Styling by simple selector using  for logo and navigational elements across all screens created by Esha*/
 header {
-    display: flex;
-    align-items: center;
-    padding: 10px;
-  }
-
-header img {
-    width: 250px; 
-    height: auto;
-    margin-right: 10px;
-    display: center;
-  }
-
-/* Navigation Bar */
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
 
 
-  /* unvisited link */
-  a:link {
-    color: black;
-  }
-  
-  /* visited link */
-  a:visited {
-    color: black;
-  }
-  
-  /* mouse over link */
-  a:hover {
-    color: #D92D20;
-  }
-  
-  /* selected link */
-  a:active {
-    color: #D92D20;
-  }
+/* Navigation Bar details to make it hovering and changing colors by Esha*/
+/* unvisited link */
+a:link {
+  color: black;
+}
 
-  nav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: white;
-    display: flex;
-    justify-content: center;
-  }
-  
-  li {
-    display: inline;
-  }
-  
-  nav a {
-    display: block;
-    color: #F97066;
-    text-align: center;
-    padding: 15px 10px 10px 10px;
-    text-decoration: none;
-  }
-  
-  nav a:hover:not(.active) {
-    background-color: rgba(255, 164, 131, 0.285);
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: orangered;
+}
+
+.navigation {
+
+}
+
+/* selected link */
+a:active {
+  color: orangered;
+}
+
+nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px 10px 10px 10px;
+  overflow: hidden;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  font-family: 'Inter', sans-serif;
+}
+
+nav a {
+  display: block;
+  color: orangered;
+  text-align: center;
+  padding: 15px 10px 10px 10px;
+  text-decoration: none;
+}
+
+nav a:hover:not(.active) {
+  background-color: rgba(255, 164, 131, 0.285);
 }
 
 .active {
   background-color: #000000;
-  color:black;
+  color: black;
 }
 
-button a {
-    color: black;
-    text-decoration: none;
+header {
+  display: flex;
+  align-items: center;
+  padding: 15px;
 }
 
-button a:hover {
-    color: #F04438;
-  }
+header img {
+  width: 300px;
+  height: auto;
+  display: center;
+  padding-left: 0px;
+}
+
+/*First two banners*/
+
+.image-container {
+margin-left: 80px;
+margin-right: 80px;
+position: relative;
+border-radius: 20px;
+}
+
+.image-container img {
+display: inline-block;
+width: 100%;
+margin: 5px;
+border-radius: 10px;
+}
 
 #innovator, #investor {
-    background-size: cover;
-    background-position: center;
-    text-align: center;
-    padding: 40px;
-    color:black;
-  }
-  
-  #innovator h1, #investor h1 {
-    margin-bottom: 20px;
-  }
-  
-  #innovator button, #investor button {
-    display: inline-block;
-    background-color:#F04438;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    text-decoration: none;
-    transition: background-color 0.3s;
-    border-radius: 4px;
-  }
-  
-  #innovator button:hover, #investor button:hover {
-    background-color: rgba(255, 164, 131, 0.8);
-  }
-  
-  .Story{
-    padding: 16px;
-    margin-top: 40px;
-    margin-bottom: 40px;
-  }
+background-size: cover;
+background-position: center;
+text-align: center;
+padding: 40px;
+color: black;
+}
 
-  
-  .cell {
-    padding: 20px;
-  }
-  
-  .card {
-    background-color: white;
-    border: 2px solid #FEE4E2;
-    border-radius: 16px;
-    padding: 20px;
-    margin-bottom: 20px;
-  }
-  
-  .card p {
-    margin: 0;
-  }
-  
-  .card img {
-    max-width: 100%;
-    height: auto;
-  }
+#innovator h1, #investor h1 {
+margin-bottom: 20px;
+font-family: 'Inter',sans-serif;
+font-weight: bold;
+font-size: medium;
+}
 
- 
+#innovator button, #investor button {
+display: inline-block;
+background-color: #EC4A0A;
+font-family: 'Inter', sans-serif;
+font-weight: medium;
+color: white;
+padding: 10px 20px;
+border: none;
+text-decoration: none;
+transition: background-color 0.3s border-color 0.3s;
+border-radius: 4px;
+}
+
+#innovator button:hover, #investor button:hover{
+ background-color: white;
+  color: #EC4A0A;
+  border: 2px solid #EC4A0A;
+}
+
+/*Our Sucess Story moving interaction*/ 
+
+.orange-strip {
+background-color: #EC4A0A;
+padding: 10px ;
+text-align: center;
+overflow: hidden; 
+margin-left: 5%;
+}
+
+.moving-text p {
+white-space: nowrap;
+text-align: center;
+font-family: 'Inter',sans-serif;
+font-size: x-large;
+font-weight: bolder;
+color: white; 
+position: relative;
+animation: moveText 10s linear infinite; 
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+@keyframes moveText {
+0% {
+  left: 100%; 
+}
+100% {
+  left: -100%; 
+}
+}
+
+.moving-text p span {
+margin: 10px; 
+}
+
+/*Our Process*/
+
+.our-process-heading {
+font-family: "Inter", sans-serif;
+font-size: 32px;
+font-weight: bold;
+margin-left: 80px;
+margin-top: 30px;
+}
+
+
+.text-side {
+flex: 1;
+padding: 20px;
+font-family: "Inter", sans-serif;
+font-weight: bold;
+}
+
+.innovation-heading {
+font-size: 28px;
+font-family:'Inter', sans-serif;
+}
+
+ul {
+list-style: disc;
+margin-left: 20px;
+padding-left: 10px;
+margin-left: 0px;
+}
+
+ul li {
+margin-bottom: 5px;
+}
+
+.image-side {
+flex: 1;
+display: flex;
+align-items: center;
+}
+
+img {
+height: auto;
+width: 400px;
+margin-bottom: 40px;
+border-radius: 10px;
+margin-right: 80px;
+}
+
+.button {
+display: inline-block;
+background-color: #EC4A0A;
+color: white;
+padding: 10px 20px;
+border: none;
+text-decoration: none;
+border-radius: 4px;
+margin-top: 15px;
+font-family: "Inter", sans-serif;
+font-weight: bold;
+}
+
+.button:hover {
+background-color: white;
+color: #EC4A0A;
+border: 2px solid #EC4A0A;
+}
+
+.sponsoredinnovations-heading {
+font-family: "Inter", sans-serif;
+font-size: 32px;
+font-weight: bold;
+margin-left: 80px;
+margin-top: 0px;
+}
+
+
+.container {
+display: flex;
+margin-left: 80px;
+}
+
+.text-side {
+flex: 1;
+padding: 20px;
+font-family: "Inter", sans-serif;
+font-weight: bold;
+}
+
+
+.slider {
+overflow: hidden;
+width: 100%;
+height: 400px;
+background-color: white;
+margin-left: 80px;
+}
+
+.slide-container {
+display: flex;
+width: 100%;
+height: 100%;
+}
+
+.slide-container img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+transition: transform 10s ease; 
+}
+
+@media screen and (max-width: 1024px) {
+.slider-container {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.slider {
+  margin-left: 0;
+  margin-right: 0;
+}
+.slide-container img {
+  border-radius: 0; /* Remove border-radius on smaller screens */
+}
+}
+
+footer {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  background-color: #000;
+  color: #FEE4E2;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+footer {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  background-color: #000;
+  color: #FEE4E2;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

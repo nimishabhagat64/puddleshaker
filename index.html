@@ -9,200 +9,125 @@
   <link rel="stylesheet" href="css/foundation.css">
   <link rel="stylesheet" href="css/app.css">
   <link rel="stylesheet" href="homepage.css">
-
+  <link rel="stylesheet" type="text/css" href="slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
 </head>
+
+<!--Here is navigation bar-->
 
 <body>
   <!--This will be PuddleShaker Logo and menu-->
-  <header>
-    <img src="PuddleShakerLogo.png" alt="Puddle Shaker Logo">
-    <nav>
-      <a href="./myProjects.html">Discovery</a>
-      <a href="./myProjects.html">My Projects</a>
-      <a href="./Dashboard.html">Find a Mentor</a>
-      <a href="./Dashboard.html">My Account</a>
-    </nav>
+  <header class="grid-container navigation">
+    <div class="grid-x align-middle">
+      <div class="cell small-6 medium-3 large-4">
+        <img src="./img/PuddleShakerLogo.png" alt="Puddle Shaker Logo">
+      </div>
+      <nav class="cell small-6 medium-9 large-8">
+        <ul class="menu align-center">
+          <li><a href="./myProjects.html">Discovery</a></li>
+          <li><a href="./myProjects.html">My Projects</a></li>
+          <li><a href="./Dashboard.html">Find a Mentor</a></li>
+          <li><a href="./Dashboard.html">My Account</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
   <!--This is the main section with all banners and marketings-->
 
+  <!--First Banner-->
+
   <main>
-    <section class="grid-container">
+    <div class="image-container">
       <section class="grid-x">
         <div id="innovator" class="cell large-6 medium-6 small-12">
-          <h1>Innovator</h1>
-          <button><a href="./registration.html">Start your project</a></button>
+          <img src="img/innovator.jpg" alt="Image 1">
+          <h1>Are you an innovator?</h1>
+          <a href="registration.html"><button>Start your Innovation</button></a>
         </div>
-        <div id="investor" class="cell large-6 medium-6 small-12">
-          <h1>Investor</h1>
-          <button><a href="discover.html">Start your discovery</a></button>
+        <div id="innovator" class="cell large-6 medium-6 small-12">
+          <img src="img/investor.jpg" alt="Image 2">
+          <h1>Are you an investor?</h1>
+          <a href="registration.html"><button>Start your Discovery</button></a>
         </div>
-      </section>
 
-      <section class="grid-container Story">
-        <h2><u>Our Sucess Story</u></h2>
-        <section class="grid-x">
-          <div class="cell large-4 medium-4 small-12">
-            <h3>20+ startups</h3>
-          </div>
-          <div class="cell large-4 medium-4 small-12">
-            <h3>40+ investors</h3>
-          </div>
-          <div class="cell large-4 medium-4 small-12">
-            <h3>150+ mentors</h3>
+
+        <!--Our Sucess Story-->
+
+        <section class="grid-x moving-text orange-strip">
+          <div id="innovator" class="cell large-12 medium-12 small-12">
+            <p> 20+ Startups&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;40+ Investors&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;120+
+              Mentors&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;15+ ideas funded&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;200+
+              Resources&nbsp;&nbsp;&nbsp;</p>
           </div>
         </section>
-      </section>
-    </section>
 
-    <section class="grid-container Story">
-      <section class="grid-x">
-        <div class="cell">
-          <h2><u>Our Process</u></h2>
-        </div>
-      </section>
+        <!--Our Process-->
 
-      <section class="grid-x">
-        <div class="cell large-6 medium-6 small-12">
-          <div class="card">
-            <h3>Innovation</h3>
-            <p>
-              <li>Guided Learning</li>
-              <li>One on One mentor guidance</li>
-              <li>Curated Resources</li>
-              <li>Investor Matchmaking</li>
-              <li>Project Progress Tracking</li>
-            </p>
+        <section class="grid-x">
 
-            <button><a href="StartProject.html">Start a Project</a></button>
+          <h1 class="our-process-heading">Our Process</h1>
+
+          <div class="container">
+            <div class="text-side">
+              <h2 class="innovation-heading">Innovation</h2>
+              <ul>
+                <li>Guided Learning</li>
+                <li>One on One Mentor Guidance</li>
+                <li>Curated Resources</li>
+                <li>Investor Matchmaking</li>
+                <li>Project Progress Tracking</li>
+              </ul>
+              <a href="#" class="button">Start Your Project</a>
+            </div>
+            <div class="image-side">
+              <img src="img/innovation1.jpg" alt="Image" width="400" height="300">
+            </div>
           </div>
-        </div>
 
-        <div class="cell large-6 medium-6 small-12">
-          <div class="card">
-            <img src="img/innovation1.jpg" alt="innovation" width="300" height="200">
+          <!--Sponsored Innovations-->
+
+          <h1 class="sponsoredinnovations-heading">Sponsored Innovations</h1>
+
+          <div class="slider">
+            <div class="slide-container">
+              <img src="img/1.jpg" alt="Image 1">
+              <img src="img/2.jpg" alt="Image 2">
+              <img src="img/3.jpg" alt="Image 3">
+              <img src="img/4.jpg" alt="Image 4">
+              <img src="img/5.jpg" alt="Image 5">
+              <img src="img/6.jpg" alt="Image 6">
+              <img src="img/7.jpg" alt="Image 7">
+              <img src="img/8.jpg" alt="Image 8">
+              <img src="img/9.jpg" alt="Image 7">
+              <img src="img/10.jpg" alt="Image 7">
+              <img src="img/11.jpg" alt="Image 7">
+            </div>
           </div>
-        </div>
-      </section>
-    </section>
 
-    <section class="grid-container">
-      <section class="grid-x">
-        <div class="cell large-6 medium-6 small-12">
-          <div class="card">
-            <h3>Investor</h3>
-            <p>
-              <li>Explore innovations</li>
-              <li>Find startups </li>
-              <li>Connect with the innovators</li>
-              <li>Invest in ideas</li>
-              <li>Progress Tracking</li>
-            </p>
-
-            <button><a href="Discovery.html">Start Discovery</a></button>
-          </div>
-        </div>
-
-        <div class="cell large-6 medium-6 small-12">
-          <div class="card">
-            <img src="img/investor1.jpg" alt="investor" width="300" height="200">
-          </div>
-        </div>
-      </section>
-    </section>
-
-    <section class="grid-container Story">
-      <section class="grid-x">
-        <div class="cell">
-          <h2><u>Sponsored Innovations</u></h2>
-        </div>
-      </section>
-
-      <section class="grid-x">
-        <div class="cell large-3 medium-6 small-12">
-          <div class="card">
-            <img src="img/image1.jpg" alt="Image 1" width="200" height="150">
-          </div>
-        </div>
-        <div class="cell large-3 medium-6 small-12">
-          <div class="card">
-            <img src="img/image2.jpg" alt="Image 2" width="200" height="150">
-          </div>
-        </div>
-        <div class="cell large-3 medium-6 small-12">
-          <div class="card">
-            <img src="img/image3.jpg" alt="Image 3" width="200" height="150">
-          </div>
-        </div>
-        <div class="cell large-3 medium-6 small-12">
-          <div class="card">
-            <img src="img/image4.jpg" alt="Image 4" width="200" height="150">
-          </div>
-        </div>
-      </section>
-      <div class="cell">
-        <button><a href="view-more.html">View More</a></button>
-      </div>
-    </section>
-
-    <section class="grid-container">
-      <section class="grid-x">
-        <div class="cell">
-          <h2><u>Client Testimonials</u></h2>
-        </div>
-      </section>
-
-      <section class="grid-x">
-        <div class="cell large-4 medium-6 small-12">
-          <div class="card">
-            <p>"I have been using Puddle Shaker to discover innovative startups and invest in promising ideas.
-              The platform provides me with a curated selection of startups in various industries, making it easy to
-              find
-              potential investment opportunities.The team at Puddle Shaker has been extremely helpful in guiding me
-              through the investment process,
-              ensuring that I make informed decisions. I highly recommend Puddle Shaker to fellow investors looking for
-              quality startups."
-          </div>
-        </div>
-
-        <div class="cell large-4 medium-6 small-12">
-          <div class="card">
-            <p>"Puddle Shaker has been instrumental in helping me turn my idea into a successful business. The platform
-              not only provided me with valuable resources and tools but also connected me with experienced mentors who
-              offered personalized guidance and support. Through Puddle Shaker, I gained access to a vibrant community
-              of like-minded innovators, allowing me to network, collaborate, and receive valuable feedback. Thank you
-              puddleshaker</p>
-          </div>
-        </div>
-
-        <div class="cell large-4 medium-6 small-12">
-          <div class="card">
-            <p> "Puddle Shaker has been a game-changer in my entrepreneurial journey. The platform provided me with the
-              necessary tools and resources to refine my business idea and create a compelling pitch. The one-on-one
-              consultations with industry experts gave me valuable insights and helped me overcome challenges at various
-              stages of my startup journey. Puddle Shaker's extensive network of mentors and investors opened doors for
-              collaboration and funding opportunities. </p>
-          </div>
-        </div>
-      </section>
-
-      <div class="cell">
-        <button><a href="Readmore.html">Read More</a></button>
-      </div>
-    </section>
 
   </main>
-
-  <footer>
-
-    <h3>Contact Us</h3>
-
-    <nav>
-      <a href="www.instagram.com">Instagram</a>
-      <a href="www.gmail.com">Email Us</a>
-      <a href="www.LinkedIn.com">LinkedIn</a>
-      <a href="www.phone.com">Whatsapp</a>
-    </nav>
+  <footer class="grid-container">
+    <section class="grid-x align-middle"> <!-- Use "grid-x" to create a horizontal grid -->
+      <div class="cell large-12 medium-12 small-12"> <!-- Use "cell" to create a grid cell -->
+        <h3>Contact Us</h3>
+        <nav class="menu"> <!-- Use the "menu" class to create a horizontal menu -->
+          <ul class="menu align-center"> <!-- Use the "menu" class again for alignment -->
+            <li><a href="https://www.instagram.com">Instagram</a></li>
+            <li><a href="mailto:info@example.com">Email Us</a></li>
+            <li><a href="https://www.linkedin.com">LinkedIn</a></li>
+            <li><a href="https://wa.me/123456789">WhatsApp</a></li>
+          </ul>
+        </nav>
+      </div>
+    </section>
   </footer>
 
+
+  <script src="js/vendor/jquery.js"></script>
+  <script src="js/vendor/what-input.js"></script>
+  <script src="js/vendor/foundation.js"></script>
+  <script src="js/app.js"></script>
 </body>
+
+</html>

@@ -69,10 +69,26 @@ header img {
   width: 300px;
   height: auto;
   display: center;
-  padding-left: 60px;
 }
 
-
+#button-cont {
+  display: inline-block;
+  background-color: #EC4A0A;
+  font-family: 'Inter', sans-serif;
+  font-weight: medium;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  text-decoration: none;
+  transition: background-color 0.3s border-color 0.3s;
+  border-radius: 4px;
+  }
+  
+ #button-cont:hover {
+   background-color: white;
+    color: #EC4A0A;
+    border: 2px solid #EC4A0A;
+  }
 
 /* My code starts from here */
 
@@ -159,4 +175,12 @@ footer {
   color: #FEE4E2;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
 }

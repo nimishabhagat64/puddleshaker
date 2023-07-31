@@ -1,0 +1,267 @@
+/* Styling by simple selector using  for logo and navigational elements across all screens created by Esha*/
+header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+
+/* Navigation Bar details to make it hovering and changing colors by Esha*/
+/* unvisited link */
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: orangered;
+}
+
+.navigation {
+
+}
+
+/* selected link */
+a:active {
+  color: orangered;
+}
+
+nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px 10px 10px 10px;
+  overflow: hidden;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  font-family: 'Inter', sans-serif;
+}
+
+nav a {
+  display: block;
+  color: orangered;
+  text-align: center;
+  padding: 15px 10px 10px 10px;
+  text-decoration: none;
+}
+
+nav a:hover:not(.active) {
+  background-color: rgba(255, 164, 131, 0.285);
+}
+
+.active {
+  background-color: #000000;
+  color: black;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+
+header img {
+  width: 300px;
+  height: auto;
+  display: center;
+}
+
+.button-container {
+  display: inline-block;
+  background-color: #EC4A0A;
+  font-family: 'Inter', sans-serif;
+  font-weight: medium;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  text-decoration: none;
+  transition: background-color 0.3s border-color 0.3s;
+  border-radius: 4px;
+  }
+  
+ .button-container:hover {
+   background-color: white;
+    color: #EC4A0A;
+    border: 2px solid #EC4A0A;
+  }
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  color: #333;
+  padding-top: 36px;
+}
+
+h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  color: #333;
+  margin-left: 50px;
+}
+
+header img {
+  width: 300px;
+  height: auto;
+  display: center;
+  padding-left: 60px;
+}
+.project-info {
+  display: flex;
+  align-items: center;
+}
+
+.project-title {
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+p {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #333;
+  padding-bottom: 24px;
+  margin-left: 10px;
+}
+
+nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px 10px 10px 10px;
+  overflow: hidden;
+  background-color: white;
+}
+
+
+nav {
+  display: flex;
+  justify-content: space-around; /* To evenly distribute the navigation links */
+}
+
+
+nav a:hover {
+  background-color: rgba(255, 164, 131, 0.285);
+}
+
+.chip {
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 10px;
+  background-color: rgb(98, 190, 75);
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 10px;
+}
+
+.card1 {
+  border: 1px solid #000;
+  background-color: #FEFFFE;
+  transition: background-color 0.3s ease;
+  padding: 16px;
+  border-radius: 16px;
+  border-color: #FEE4E2;
+  margin-right: 200px;
+  margin-left: 200px;
+}
+
+/* Styling by pseudo element for interactive card1 across all screens created by khushi*/
+.card1:hover {
+  border: 1px solid #000;
+  background-color: #FEE4E2;
+  transition: background-color 0.3s ease;
+  padding: 16px;
+  border-radius: 16px;
+  border-color: #F97066;
+}
+
+.innovations {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #333;
+  padding-bottom: 24px;
+  margin-left: 200px;
+  margin-top: -17px; /* Adjust the value as needed to reduce the space */
+}
+
+
+
+.button {
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  border-radius: 4px;
+  background-color: rgba(255, 164, 131, 0.8);
+  margin-left: 200px;
+}
+
+/* Add the popup styles */
+.popup {
+  display: none;
+  font-family: "Inter", sans-serif;
+  font-size: 10px;
+  font-weight: 100;
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.popup p {
+  margin-bottom: 20px;
+}
+
+
+.button-container {
+  margin-top: 40px; 
+}
+
+button a:hover {
+  color: #F04438;
+}
+
+
+.flex-container {
+  display: flex;
+}
+
+.align-center {
+  align-items: center;
+}
+
+footer {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  background-color: #000;
+  color: #FEE4E2;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+
